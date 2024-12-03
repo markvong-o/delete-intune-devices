@@ -4,16 +4,17 @@
 
 ### Pre-req:
 
-#### 1. Create an [mobile/desktop app in Azure](https://learn.microsoft.com/en-us/graph/auth-register-app-v2){:target="_blank"} 
+#### 1. Create a <a target="_blank" href="https://learn.microsoft.com/en-us/graph/auth-register-app-v2">mobile/desktop app in Azure</a>
 
-#### 2. Redirect URI should be 
+#### 2. Redirect URI should be
+
 ```http://localhost:8401```
 
-#### 3. Assign API Permissions 
+#### 3. Assign API Permissions
+
 ```User.ReadWrite.All, DeviceManagementManagedDevices.ReadWrite.All, Directory.ReadWrite.All```
 
 #### 4. Copy the Client ID
-
 
 ### Steps for launching app
 
