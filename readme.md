@@ -2,7 +2,18 @@
 
 ## Leverage MS Graph API via the msgraph-sdk for python
 
-### Steps
+### Pre-req:
+
+#### 1. Create an [mobile/desktop app in Azure](https://learn.microsoft.com/en-us/graph/auth-register-app-v2) 
+
+#### 2. Redirect URI should be ```http://localhost:8401```
+
+#### 3. Assign API Permissions ```User.ReadWrite.All, DeviceManagementManagedDevices.ReadWrite.All, Directory.ReadWrite.All``
+
+#### 4. Copy the Client ID
+
+
+### Steps for launching app
 
 #### 1. Unzip file to find delete_intune_devices folder
 
