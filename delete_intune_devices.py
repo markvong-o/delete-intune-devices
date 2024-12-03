@@ -28,8 +28,6 @@ credential = InteractiveBrowserCredential(
 graph_client = GraphServiceClient(credential, _scopes)
 
 # Get all managed devices
-
-
 async def get_managed_devices():
     managed_devices = await graph_client.device_management.managed_devices.get()
     print(
@@ -37,8 +35,6 @@ async def get_managed_devices():
     return managed_devices
 
 # Delete provided device by id
-
-
 async def delete_managed_device(_device_id):
     print(f'Deleting device:{_device_id}...')
     await graph_client.device_management.managed_devices.by_managed_device_id(_device_id).delete()
