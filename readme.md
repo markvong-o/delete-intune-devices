@@ -8,11 +8,11 @@
 
 2. Redirect URI should be
 
-```   http://localhost:8401```
+    ```http://localhost:8401```
 
 3. Assign API Permissions
 
-```   User.ReadWrite.All, DeviceManagementManagedDevices.ReadWrite.All, Directory.ReadWrite.All```
+    ```User.ReadWrite.All, DeviceManagementManagedDevices.ReadWrite.All, Directory.ReadWrite.All```
 
 4. Copy the Client ID
 
@@ -24,12 +24,12 @@
 
 3. Activate virtual env
 
-```   . ./venv/bin/activate```
+    ```. ./venv/bin/activate```
 
 4. Install libraries
 
-```   pip install requirements.txt```
+    ```pip install requirements.txt```
 
 5. Run the script
 
-```   python3 delete_intune_devices.py```
+    ```python3 delete_intune_devices.py```
